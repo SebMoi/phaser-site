@@ -30,7 +30,7 @@
 					<div class="text">
 						<p>A fast, free and fun open source framework supporting both JavaScript and TypeScript</p>
 					</div>
-					<a href="https://github.com/photonstorm/phaser" class="btn">Download and get started Download or Fork via Github</a>
+					<a href="https://github.com/photonstorm/phaser" class="btn">Download and get started. Download or Fork via Github</a>
 				</section>
 			</header>
 			<div id="main">
@@ -40,19 +40,28 @@
 						<ul>
 							<li>
 								<div class="popup-holder">
-									<a class="open" href="#">Easy Asset Loading</a>
+									<a class="open" href="#">WebGL &amp; Canvas</a>
 									<div class="popup">
-										<h2>Easy Asset Loading</h2>
-										<p>The Stage is the place on which your game lives. You can easily change its position within the browser, width, height, background colour (have your game on a transparent background) and StageScaleMode.</p>
+										<h2>WebGL &amp; Canvas</h2>
+										<p>Phaser uses both a Canvas and WebGL renderer internally and can automatically swap between them based on browser support. This allows for lightning fast rendering across Desktop and Mobile. Phaser uses and contributes towards the excellent Pixi.js library for rendering.</p>
 									</div>
 								</div>
 							</li>
 							<li>
 								<div class="popup-holder">
-									<a class="open" href="#">Multiple Cameras</a>
+									<a class="open" href="#">Preloader</a>
 									<div class="popup">
-										<h2>Multiple Cameras</h2>
-										<p>The Stage is the place on which your game lives. You can easily change its position within the browser, width, height, background colour (have your game on a transparent background) and StageScaleMode.</p>
+										<h2>Preloader</h2>
+										<p>We've made the loading of assets as simple as one line of code. Images, Sounds, Sprite Sheets, Tilemaps, JSON data, XML - all parsed and handled automatically, ready for use in game and stored in a global Cache for Sprites to share.</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="popup-holder">
+									<a class="open" href="#">Physics</a>
+									<div class="popup">
+										<h2>Physics</h2>
+										<p>Phaser ships with our Arcade Physics system. An extremely light-weight AABB physics library perfect for low-powered devices and fast collision response. Control velocity, acceleration, bounce, drag and full collision and separation control.</p>
 									</div>
 								</div>
 							</li>
@@ -61,7 +70,8 @@
 									<a class="open" href="#">Sprites</a>
 									<div class="popup">
 										<h2>Sprites</h2>
-										<p>The Stage is the place on which your game lives. You can easily change its position within the browser, width, height, background colour (have your game on a transparent background) and StageScaleMode.</p>
+										<p>Sprites are the life-blood of your game. Position them, tween them, rotate them, scale them, animate them, collide them, paint them onto custom textures and so much more!</p>
+										<p>Sprites also have full Input support: click them, touch them, drag them around, snap them - even pixel perfect click detection if needed.</p>
 									</div>
 								</div>
 							</li>
@@ -70,7 +80,7 @@
 									<a class="open" href="#">Groups</a>
 									<div class="popup">
 										<h2>Groups</h2>
-										<p>The Stage is the place on which your game lives. You can easily change its position within the browser, width, height, background colour (have your game on a transparent background) and StageScaleMode.</p>
+										<p>Group bundles of Sprites together for easy pooling and recycling, avoiding constant object creation. Groups can also be collided: for example a "Bullets" group checking for collision against the "Aliens" group, with a custom collision callback to handle the outcome.</p>
 									</div>
 								</div>
 							</li>
@@ -79,25 +89,7 @@
 									<a class="open" href="#">Animation</a>
 									<div class="popup">
 										<h2>Animation</h2>
-										<p>The Stage is the place on which your game lives. You can easily change its position within the browser, width, height, background colour (have your game on a transparent background) and StageScaleMode.</p>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="popup-holder">
-									<a class="open" href="#">Scroll Zones</a>
-									<div class="popup">
-										<h2>Scroll Zones</h2>
-										<p>The Stage is the place on which your game lives. You can easily change its position within the browser, width, height, background colour (have your game on a transparent background) and StageScaleMode.</p>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="popup-holder">
-									<a class="open" href="#">Collision &amp; physics</a>
-									<div class="popup">
-										<h2>Collision &amp; physics</h2>
-										<p>The Stage is the place on which your game lives. You can easily change its position within the browser, width, height, background colour (have your game on a transparent background) and StageScaleMode.</p>
+										<p>Phaser supports classic Sprite Sheets with a fixed frame size, Texture Packer and Flash CS6/CC JSON files (both Hash and Array formats) and Starling XML files. All of these can be used to easily create animation for Sprites.</p>
 									</div>
 								</div>
 							</li>
@@ -106,7 +98,16 @@
 									<a class="open" href="#">Particles</a>
 									<div class="popup">
 										<h2>Particles</h2>
-										<p>The Stage is the place on which your game lives. You can easily change its position within the browser, width, height, background colour (have your game on a transparent background) and StageScaleMode.</p>
+										<p>An Arcade Particle system is built-in, which allows you to create fun particle effects easily. Create explosions or constant streams for effects like rain or fire. Or attach the Emitter to a Sprite for a jet trail.</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="popup-holder">
+									<a class="open" href="#">Camera</a>
+									<div class="popup">
+										<h2>Camera</h2>
+										<p>Phaser has a built-in Game World. Objects can be placed anywhere within the world and you've got access to a powerful Camera to look into that world. Pan around and follow Sprites with ease.</p>
 									</div>
 								</div>
 							</li>
@@ -118,25 +119,7 @@
 									<a class="open" href="#">Input</a>
 									<div class="popup">
 										<h2>Input</h2>
-										<p>The Stage is the place on which your game lives. You can easily change its position within the browser, width, height, background colour (have your game on a transparent background) and StageScaleMode.</p>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="popup-holder">
-									<a class="open" href="#">GAME UI</a>
-									<div class="popup">
-										<h2>GAME UI</h2>
-										<p>The Stage is the place on which your game lives. You can easily change its position within the browser, width, height, background colour (have your game on a transparent background) and StageScaleMode.</p>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="popup-holder">
-									<a class="open" href="#">World</a>
-									<div class="popup">
-										<h2>World</h2>
-										<p>The Stage is the place on which your game lives. You can easily change its position within the browser, width, height, background colour (have your game on a transparent background) and StageScaleMode.</p>
+										<p>Talk to a Phaser.Pointer and it doesn't matter if the input came from a touch-screen or mouse, it can even change mid-game without dropping a beat. Multi-touch, Mouse, Keyboard and lots of useful functions allow you to code custom gesture recognition.</p>
 									</div>
 								</div>
 							</li>
@@ -145,25 +128,7 @@
 									<a class="open" href="#">Sound</a>
 									<div class="popup">
 										<h2>Sound</h2>
-										<p>The Stage is the place on which your game lives. You can easily change its position within the browser, width, height, background colour (have your game on a transparent background) and StageScaleMode.</p>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="popup-holder">
-									<a class="open" href="#">MOBILE BROWSER</a>
-									<div class="popup">
-										<h2>MOBILE BROWSER</h2>
-										<p>The Stage is the place on which your game lives. You can easily change its position within the browser, width, height, background colour (have your game on a transparent background) and StageScaleMode.</p>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="popup-holder">
-									<a class="open" href="#">GAME SCALING</a>
-									<div class="popup">
-										<h2>GAME SCALING</h2>
-										<p>The Stage is the place on which your game lives. You can easily change its position within the browser, width, height, background colour (have your game on a transparent background) and StageScaleMode.</p>
+										<p>Phaser supports both Web Audio and legacy HTML Audio. It automatically handles mobile device locking, easy Audio Sprite creation, looping, streaming and volume. We know how much of a pain dealing with audio on mobile is, so we did our best to resolve that!</p>
 									</div>
 								</div>
 							</li>
@@ -172,7 +137,16 @@
 									<a class="open" href="#">Tilemaps</a>
 									<div class="popup">
 										<h2>Tilemaps</h2>
-										<p>The Stage is the place on which your game lives. You can easily change its position within the browser, width, height, background colour (have your game on a transparent background) and StageScaleMode.</p>
+										<p>Phaser can load, render and collide with a tilemap with just a couple of lines of code. We support CSV and Tiled map data formats with multiple tile layers. There are lots of powerful tile manipulation functions: swap tiles, replace them, delete them, add them and update the map in realtime.</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="popup-holder">
+									<a class="open" href="#">Device Scaling</a>
+									<div class="popup">
+										<h2>Device Scaling</h2>
+										<p>Phaser has a built-in Scale Manager which allows you to scale your game to fit any size screen. Control aspect ratios, minimum and maximum scales and full-screen support.</p>
 									</div>
 								</div>
 							</li>
@@ -181,7 +155,34 @@
 									<a class="open" href="#">Plugin system</a>
 									<div class="popup">
 										<h2>Plugin system</h2>
-										<p>The Stage is the place on which your game lives. You can easily change its position within the browser, width, height, background colour (have your game on a transparent background) and StageScaleMode.</p>
+										<p>We are trying hard to keep the core of Phaser limited to only essential classes, so we built a smart Plugin system to handle everything else. Create your own plugins easily and share them with the community.</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="popup-holder">
+									<a class="open" href="#">Mobile Browser</a>
+									<div class="popup">
+										<h2>Mobile Browser</h2>
+										<p>Phaser was built specifically for Mobile web browsers. Of course it works blazingly fast on Desktop too, but unlike lots of frameworks mobile was our main focus. If it doesn't perform well on mobile then we don't add it into the Core.</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="popup-holder">
+									<a class="open" href="#">Developer Support</a>
+									<div class="popup">
+										<h2>Developer Support</h2>
+										<p>We use Phaser every day on our many client projects. As a result it's constantly evolving and improving and we jump on bugs and pull requests quickly. This is a living, breathing framework maintained by a commercial company with custom feature development and support packages available.</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="popup-holder">
+									<a class="open" href="#">Battle Tested</a>
+									<div class="popup">
+										<h2>Battle Tested</h2>
+										<p>Although Phaser 1.0 is a brand new release it is born from years of experience building some of the biggest HTML5 games out there. We're not saying it is 100% bug free, but we use it for our client work every day, so issues get resolved <em>fast</em> and we stay on-top of the changing browser landscape.</p>
 									</div>
 								</div>
 							</li>

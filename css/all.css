@@ -32,7 +32,11 @@ figure {
 	background:#e0e4f1 url(../images/bg-body.jpg) no-repeat 50% 0;
 }
 .carousel .mask .slide:after,
-.section:after{	content:"";	display:block;	clear:both;}
+.section:after{
+	content:"";
+	display:block;
+	clear:both;
+}
 .w1{
 	width:1180px;
 	margin:0 auto;
@@ -48,14 +52,23 @@ figure {
 	width:630px;
 	position:relative;
 }
-.logo{	overflow:hidden;	background:url(../images/logo.jpg) no-repeat;
+.logo{
+	overflow:hidden;
+	background:url(../images/logo.jpg) no-repeat;
 	width: 632px;
 	height: 549px;
 	text-indent:-9999px;
-	float:left;}.logo a{	display:block;	height:100%;}
-.logotype{	left:-35px;
+	float:left;
+}
+.logo a{
+	display:block;
+	height:100%;
+}
+.logotype{
+	left:-35px;
 	position: absolute;
-	top:404px;}
+	top:404px;
+}
 #header .container{
 	float:right;
 	color:#fff;
@@ -115,12 +128,19 @@ figure {
 	padding:0 77px;
 	position:relative;
 }
-#main .featured:after{	content:"";	left:0;
+#main .featured:after{
+	content:"";
+	left:0;
 	position: absolute;
-	top: 9px;	background:url(../images/sprite.png) no-repeat;
+	top: 9px;
+	background:url(../images/sprite.png) no-repeat;
 	width: 38px;
-	height: 48px;}
-#main .about ul {	margin:0;	padding:35px 0 0;	list-style:none;
+	height: 48px;
+}
+#main .about ul {
+	margin:0;
+	padding:35px 0 0;
+	list-style:none;
 	float:left;
 	text-align:right;
 	width:280px;
@@ -128,7 +148,8 @@ figure {
 	font-size:15px;
 	line-height:18px;
 	font-weight:bold;
-	text-shadow:0 2px 0 rgba(255, 255, 255, 0.75);}
+	text-shadow:0 2px 0 rgba(255, 255, 255, 0.75);
+}
 #main .about ul li{
 	margin: 0 0 22px;
 	padding: 0 79px 0 0;
@@ -181,18 +202,26 @@ figure {
 	font-size: 20px;
 	line-height: 25px;
 }
-.box:before{	content:"";	left: -20px;
+.box:before{
+	content:"";
+	left: -20px;
 	position: absolute;
-	top: 209px;	background:url(../images/sprite.png) no-repeat -497px -312px;
+	top: 209px;
+	background:url(../images/sprite.png) no-repeat -497px -312px;
 	width: 15px;
-	height: 20px;}
+	height: 20px;
+}
 .box:first-child:before{background:none;}
 .box:after,
-.one:after{	content:"";	left: 70px;
+.one:after{
+	content:"";
+	left: 70px;
 	position: absolute;
-	top: 31px;	background:url(../images/sprite.png) no-repeat 0 -111px;
+	top: 31px;
+	background:url(../images/sprite.png) no-repeat 0 -111px;
 	width:170px;
-	height:145px;}
+	height:145px;
+}
 .two:after{
 	width:202px;
 	height:136px;
@@ -226,9 +255,15 @@ figure {
 	text-align:center;
 	margin:0 0 0 10px;
 }
-.button:after{	content:"";	position:absolute;	top:0;	left:-8px;	background:url(../images/sprite.png) no-repeat 0 -766px;
+.button:after{
+	content:"";
+	position:absolute;
+	top:0;
+	left:-8px;
+	background:url(../images/sprite.png) no-repeat 0 -766px;
 	width:8px;
-	height:43px;}
+	height:43px;
+}
 #main .box h2{
 	font-size:40px;
 	line-height:42px;
@@ -247,10 +282,15 @@ figure {
 .button.item-01:before,
 .button.item-02:before,
 .button.item-03:before,
-.button.item-04:before{	content:"";	position:absolute;	right: 15px;
-	top: 8px;	background:url(../images/sprite.png) no-repeat -341px -324px;
+.button.item-04:before{
+	content:"";
+	position:absolute;
+	right: 15px;
+	top: 8px;
+	background:url(../images/sprite.png) no-repeat -341px -324px;
 	width:24px;
-	height:27px;}
+	height:27px;
+}
 .button.item-02:before{
 	background-position:-341px -80px;
 	width:40px;
@@ -312,7 +352,12 @@ figure {
 	font-size:15px;
 	line-height:18px;
 }
-.gallery-holder:after{	content:"";	position:absolute;	bottom:0;	left:19px;	background:url(../images/bg-gallery-holder-b.png) no-repeat;
+.gallery-holder:after{
+	content:"";
+	position:absolute;
+	bottom:0;
+	left:19px;
+	background:url(../images/bg-gallery-holder-b.png) no-repeat;
 	width: 1137px;
 	height: 104px;
 }
@@ -410,11 +455,15 @@ figure {
 	color:#fff;
 	position:relative;
 }
-#footer .social-networks li a:after{	content:"";	left: -1px;
+#footer .social-networks li a:after{
+	content:"";
+	left: -1px;
 	position: absolute;
-	top: -12px;	background:url(../images/sprite.png) no-repeat -492px 0;
+	top: -12px;
+	background:url(../images/sprite.png) no-repeat -492px 0;
 	width:68px; 
-	height:65px;}
+	height:65px;
+}
 #footer .social-networks li .twitter:after{
 	background-position:-492px -80px;
 	width:69px;
@@ -437,11 +486,19 @@ figure {
 	float:left;
 	margin:2px 18px 0 0;
 }
-.logotype-01{	overflow:hidden;	background:url(../images/logotype-01.png) no-repeat;
+.logotype-01{
+	overflow:hidden;
+	background:url(../images/logotype-01.png) no-repeat;
 	width: 113px;
-	height: 15px;	text-indent:-9999px;
+	height: 15px;
+	text-indent:-9999px;
 	display:block;
-	margin:0 0 4px;}.logotype-01 a{	display:block;	height:100%;}
+	margin:0 0 4px;
+}
+.logotype-01 a{
+	display:block;
+	height:100%;
+}
 #footer .copy{display:block;}
 .logo-holder{
 	float:left;
@@ -459,7 +516,7 @@ figure {
 }
 .popup{
 	display:none;
-	width:200px;
+	width:300px;
 	padding:12px 20px 18px;
 	background:#fff;
 	font-size:15px;
@@ -467,7 +524,7 @@ figure {
 	position:absolute;
 	top:90px;
 	left:50%;
-	margin:0 0 0 -132px;
+	margin:0 0 0 -180px;
 	text-transform:none;
 	text-align:left;
 	font-weight:normal;
