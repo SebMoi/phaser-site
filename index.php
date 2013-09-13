@@ -6,11 +6,13 @@
 	<meta name="description" content="A free, fast and flexible framework for HTML5 game creation">
 	<link media="all" rel="stylesheet" href="css/all.css">
 	<link rel="author" href="https://plus.google.com/106676047029022880747/"/>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+	<link rel="icon" href="/favicon.ico" type="image/x-icon"/>
 	<meta property="og:title" content="phaser - HTML5 game framework"/>
 	<meta property="og:url" content="http://phaser.io"/>
 	<meta property="og:description" content="A free, fast and flexible framework for HTML5 game creation"/>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script >window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
 	<script src="js/jquery.main.js"></script>
 	<!--[if IE]><script src="js/ie.js"></script><![endif]-->
 	<script src="//use.typekit.net/fmc0gtt.js"></script>
