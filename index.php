@@ -203,8 +203,8 @@
 							<h2><mark>2.</mark> Setup</h2>
 							<p>Get started with these guides:</p>
 							<div class="button-frame">
-								<a href="#comingsoon" class="button item-03"><span>JavaScript Guide</span></a>
-								<a href="#comingsoon" class="button item-02"><span>TypeScript Guide</span></a>
+								<a href="getting-started-ts.php" class="button item-02"><span>TypeScript Guide</span></a>
+								<a href="getting-started-js.php" class="button item-03"><span>JavaScript Guide</span></a>
 							</div>
 						</div>
 						<div class="box three">
