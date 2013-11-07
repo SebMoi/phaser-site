@@ -42,7 +42,7 @@
 						<ul>
 							<li>
 								<div class="popup-holder">
-									<a class="open" href="#">WebGL &amp; Canvas</a>
+									<a class="open">WebGL &amp; Canvas</a>
 									<div class="popup">
 										<h2>WebGL &amp; Canvas</h2>
 										<p>Phaser uses both a Canvas and WebGL renderer internally and can automatically swap between them based on browser support. This allows for lightning fast rendering across Desktop and Mobile. Phaser uses and contributes towards the excellent Pixi.js library for rendering.</p>
@@ -51,7 +51,7 @@
 							</li>
 							<li>
 								<div class="popup-holder">
-									<a class="open" href="#">Preloader</a>
+									<a class="open">Preloader</a>
 									<div class="popup">
 										<h2>Preloader</h2>
 										<p>We've made the loading of assets as simple as one line of code. Images, Sounds, Sprite Sheets, Tilemaps, JSON data, XML - all parsed and handled automatically, ready for use in game and stored in a global Cache for Sprites to share.</p>
@@ -60,7 +60,7 @@
 							</li>
 							<li>
 								<div class="popup-holder">
-									<a class="open" href="#">Physics</a>
+									<a class="open">Physics</a>
 									<div class="popup">
 										<h2>Physics</h2>
 										<p>Phaser ships with our Arcade Physics system. An extremely light-weight AABB physics library perfect for low-powered devices and fast collision response. Control velocity, acceleration, bounce, drag and full collision and separation control.</p>
@@ -69,7 +69,7 @@
 							</li>
 							<li>
 								<div class="popup-holder">
-									<a class="open" href="#">Sprites</a>
+									<a class="open">Sprites</a>
 									<div class="popup">
 										<h2>Sprites</h2>
 										<p>Sprites are the life-blood of your game. Position them, tween them, rotate them, scale them, animate them, collide them, paint them onto custom textures and so much more!</p>
@@ -79,7 +79,7 @@
 							</li>
 							<li>
 								<div class="popup-holder">
-									<a class="open" href="#">Groups</a>
+									<a class="open">Groups</a>
 									<div class="popup">
 										<h2>Groups</h2>
 										<p>Group bundles of Sprites together for easy pooling and recycling, avoiding constant object creation. Groups can also be collided: for example a "Bullets" group checking for collision against the "Aliens" group, with a custom collision callback to handle the outcome.</p>
@@ -88,7 +88,7 @@
 							</li>
 							<li>
 								<div class="popup-holder">
-									<a class="open" href="#">Animation</a>
+									<a class="open">Animation</a>
 									<div class="popup">
 										<h2>Animation</h2>
 										<p>Phaser supports classic Sprite Sheets with a fixed frame size, Texture Packer and Flash CS6/CC JSON files (both Hash and Array formats) and Starling XML files. All of these can be used to easily create animation for Sprites.</p>
@@ -97,7 +97,7 @@
 							</li>
 							<li>
 								<div class="popup-holder">
-									<a class="open" href="#">Particles</a>
+									<a class="open">Particles</a>
 									<div class="popup">
 										<h2>Particles</h2>
 										<p>An Arcade Particle system is built-in, which allows you to create fun particle effects easily. Create explosions or constant streams for effects like rain or fire. Or attach the Emitter to a Sprite for a jet trail.</p>
@@ -106,7 +106,7 @@
 							</li>
 							<li>
 								<div class="popup-holder">
-									<a class="open" href="#">Camera</a>
+									<a class="open">Camera</a>
 									<div class="popup">
 										<h2>Camera</h2>
 										<p>Phaser has a built-in Game World. Objects can be placed anywhere within the world and you've got access to a powerful Camera to look into that world. Pan around and follow Sprites with ease.</p>
@@ -114,11 +114,11 @@
 								</div>
 							</li>
 						</ul>
-						<div class="image-holder"><img src="images/img-02.png" width="488" height="275" alt="game screen shot"></div>
+						<div class="image-holder"><img src="images/img-03.png" width="488" height="275" alt="game screen shot"></div>
 						<ul class="additional">
 							<li>
 								<div class="popup-holder">
-									<a class="open" href="#">Input</a>
+									<a class="open">Input</a>
 									<div class="popup">
 										<h2>Input</h2>
 										<p>Talk to a Phaser.Pointer and it doesn't matter if the input came from a touch-screen or mouse, it can even change mid-game without dropping a beat. Multi-touch, Mouse, Keyboard and lots of useful functions allow you to code custom gesture recognition.</p>
@@ -127,7 +127,7 @@
 							</li>
 							<li>
 								<div class="popup-holder">
-									<a class="open" href="#">Sound</a>
+									<a class="open">Sound</a>
 									<div class="popup">
 										<h2>Sound</h2>
 										<p>Phaser supports both Web Audio and legacy HTML Audio. It automatically handles mobile device locking, easy Audio Sprite creation, looping, streaming and volume. We know how much of a pain dealing with audio on mobile is, so we did our best to resolve that!</p>
@@ -136,7 +136,7 @@
 							</li>
 							<li>
 								<div class="popup-holder">
-									<a class="open" href="#">Tilemaps</a>
+									<a class="open">Tilemaps</a>
 									<div class="popup">
 										<h2>Tilemaps</h2>
 										<p>Phaser can load, render and collide with a tilemap with just a couple of lines of code. We support CSV and Tiled map data formats with multiple tile layers. There are lots of powerful tile manipulation functions: swap tiles, replace them, delete them, add them and update the map in realtime.</p>
@@ -145,7 +145,7 @@
 							</li>
 							<li>
 								<div class="popup-holder">
-									<a class="open" href="#">Device Scaling</a>
+									<a class="open">Device Scaling</a>
 									<div class="popup">
 										<h2>Device Scaling</h2>
 										<p>Phaser has a built-in Scale Manager which allows you to scale your game to fit any size screen. Control aspect ratios, minimum and maximum scales and full-screen support.</p>
@@ -154,7 +154,7 @@
 							</li>
 							<li>
 								<div class="popup-holder">
-									<a class="open" href="#">Plugin system</a>
+									<a class="open">Plugin system</a>
 									<div class="popup">
 										<h2>Plugin system</h2>
 										<p>We are trying hard to keep the core of Phaser limited to only essential classes, so we built a smart Plugin system to handle everything else. Create your own plugins easily and share them with the community.</p>
@@ -163,7 +163,7 @@
 							</li>
 							<li>
 								<div class="popup-holder">
-									<a class="open" href="#">Mobile Browser</a>
+									<a class="open">Mobile Browser</a>
 									<div class="popup">
 										<h2>Mobile Browser</h2>
 										<p>Phaser was built specifically for Mobile web browsers. Of course it works blazingly fast on Desktop too, but unlike lots of frameworks mobile was our main focus. If it doesn't perform well on mobile then we don't add it into the Core.</p>
@@ -172,7 +172,7 @@
 							</li>
 							<li>
 								<div class="popup-holder">
-									<a class="open" href="#">Developer Support</a>
+									<a class="open">Developer Support</a>
 									<div class="popup">
 										<h2>Developer Support</h2>
 										<p>We use Phaser every day on our many client projects. As a result it's constantly evolving and improving and we jump on bugs and pull requests quickly. This is a living, breathing framework maintained by a commercial company with custom feature development and support packages available. We live and breathe HTML5 games.</p>
@@ -181,14 +181,40 @@
 							</li>
 							<li>
 								<div class="popup-holder">
-									<a class="open" href="#">Battle Tested</a>
+									<a class="open">Battle Tested</a>
 									<div class="popup">
 										<h2>Battle Tested</h2>
-										<p>Although Phaser 1.0 is a brand new release it is born from years of experience building some of the biggest HTML5 games out there. We're not saying it is 100% bug free, but we use it for our client work every day, so issues get resolved <em>fast</em> and we stay on-top of the changing browser landscape.</p>
+										<p>Although Phaser is new it is born from years of experience building some of the biggest HTML5 games out there. We're not saying it is 100% bug free, but we use it for our client work every day, so issues get resolved <em>fast</em> and we stay on-top of the changing browser landscape.</p>
 									</div>
 								</div>
 							</li>
 						</ul>
+					</div>
+				</section>
+				<section class="section add">
+					<h1>News</h1>
+					<div class="box-holder">
+
+						<div class="news">
+							<div class="date">1st Nov.</div>
+							<div class="item"><a href="http://www.html5gamedevs.com/topic/1934-phaser-112-released/">Phaser 1.1.2 Released:</a> Enhancements to Full Screen API support and a new Project Template added.</div>
+						</div>
+
+						<div class="news">
+							<div class="date">29th Oct.</div>
+							<div class="item"><a href="http://www.html5gamedevs.com/topic/1868-lets-learn-phaser-youtube-videos/">Let's Learn Phaser:</a> A new amateur series of YouTube teaching videos.</div>
+						</div>
+
+						<div class="news">
+							<div class="date">25th Oct.</div>
+							<div class="item"><a href="http://www.html5gamedevs.com/topic/1815-phaser-11-is-released/">Phaser 1.1 Released:</a> Our biggest update ever! Full API Docs, 150+ Examples, Enhanced Physics and more.</div>
+						</div>
+
+						<div class="news">
+							<div class="date">20th Oct.</div>
+							<div class="item"><a href="http://www.html5gamedevs.com/topic/1752-coding-an-html5-game-for-30-minutes-or-an-introduction-to-the-phaser-framework/">An Introduction to Phaser:</a> A quick 30 minute introduction to making a game in Phaser.</div>
+						</div>
+
 					</div>
 				</section>
 				<section class="section add">
@@ -270,7 +296,7 @@
 								<div class="slide">
 									<figure>
 										<a href="http://www.html5gamedevs.com/topic/873-guidelines-for-posting-in-this-board/"><img src="images/shot-yourgame.jpg" width="310" height="200" alt="Your Game Here!"></a>
-										<figcaption><strong class="title"><a href="http://www.html5gamedevs.com/topic/873-guidelines-for-posting-in-this-board/">Your Game Here!</a></strong>By the wonderful person reading this :)</figcaption>
+										<figcaption><strong class="title"><a href="http://www.html5gamedevs.com/topic/1975-game-list-of-phaser-games/">Your Game Here!</a></strong>By the wonderful person reading this :)</figcaption>
 									</figure>
 								</div>
 							</div>

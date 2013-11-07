@@ -69,6 +69,9 @@ figure {
 	position: absolute;
 	top:404px;
 }
+.open {
+	cursor: pointer;
+}
 #header .container{
 	float:right;
 	color:#fff;
@@ -184,6 +187,31 @@ figure {
 	margin: 0 0 19px;
 	padding: 0 0 59px;
 }
+
+.news {
+	font-size:18px;
+	color:#000;
+	text-shadow:0 1px 1px #fff;
+	clear: left;
+}
+
+.news .date {
+	float: left;
+	width: 100px;
+	margin-top: 16px;
+	text-transform: uppercase;
+}
+
+.news .item {
+	float: left;
+	margin-top: 16px;
+}
+
+.news .item a {
+	color:#99388c;
+	margin-right: 10px;
+}
+
 .box-holder{
 	overflow:hidden;
 	padding:21px 0 0 99px;
