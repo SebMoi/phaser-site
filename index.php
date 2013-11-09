@@ -195,6 +195,13 @@
 					<h1>News</h1>
 					<div class="box-holder">
 
+						<div class="createsend-button" style="height:27px;display:inline-block;" data-listid="r/69/574/2FD/369DE48E3E86AF1E"></div><script type="text/javascript">(function () { var e = document.createElement('script'); e.type = 'text/javascript'; e.async = true; e.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://btn.createsend1.com/js/sb.min.js?v=2'; e.className = 'createsend-script'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(e, s); })();</script>
+
+						<div class="news">
+							<div class="date">8th Nov.</div>
+							<div class="item"><a href="https://confirmsubscription.com/h/r/369DE48E3E86AF1E">Phaser Newsletter:</a> Subscribe to be notified when new versions are out and a bi-monthly game making newsletter.</div>
+						</div>
+
 						<div class="news">
 							<div class="date">1st Nov.</div>
 							<div class="item"><a href="http://www.html5gamedevs.com/topic/1934-phaser-112-released/">Phaser 1.1.2 Released:</a> Enhancements to Full Screen API support and a new Project Template added.</div>
