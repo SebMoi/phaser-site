@@ -68,7 +68,7 @@
 		        <p>Most of all though, we truly hope you have fun making your game.</p>
 
 		        <ul>
-		            <li><a href="index.html">Part 1: Introduction</a></li>
+		            <li><a href="getting-started-js.php">Part 1: Introduction</a></li>
 		            <li><a href="getting-started-js2.php">Part 2: Installing a web server</a></li>
 		            <li><a href="getting-started-js3.php">Part 3: Run in the Cloud</a></li>
 		            <li><a href="getting-started-js4.php">Part 4: Choosing an Editor</a></li>

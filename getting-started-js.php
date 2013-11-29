@@ -51,14 +51,14 @@
 
 		        <p>It's to do with the protocol used to access the files. When you request anything over the web you're using http, and the server level security is enough to ensure you can only access files you're meant to. But when you drag a file in it's loaded via the local file system (technically file://) and that is massively restricted, for obvious reasons. Under file:// there's no concept of domains, no server level security, just a raw file system. Ask yourself this: do you really want JavaScript to have the ability to load files from your local file system? Your immediate answer should of course be "not in a million years!". If JavaScript had free reign while operating under file:// there would be nothing stopping it loading pretty much <em>any</em> file it fancied and sending it off who knows where.</p>
 
-		        <p>Because this is so dangerous browsers lock themselves down tighter than Alcatraz when running under file://. Every single page becomes treated as a unique local domain. That is why "Save Web page" works, to a degree. It opens under the same cross-site restrictions as if they were on a live server. There's a detailed post about it on the Chromium blog: http://blog.chromium.org/2008/12/security-in-depth-local-web-pages.html.</p>
+		        <p>Because this is so dangerous browsers lock themselves down tighter than Alcatraz when running under file://. Every single page becomes treated as a unique local domain. That is why "Save Web page" works, to a degree. It opens under the same cross-site restrictions as if they were on a live server. There's a detailed post about it on the <a href="http://blog.chromium.org/2008/12/security-in-depth-local-web-pages.html">Chromium blog</a> that is well worth a read.</p>
 
 		        <p>Your game is going to need to load in resources. Images, audio files, JSON data, maybe other JavaScript files. In order to do this it needs to run unhindered by the browser security shackles. It needs http:// access to the game files. And for that we need a web server.</p>
 
 		        <p><a href="getting-started-js2.php">Part 2: Installing a web server</a></p>
 
 		        <ul>
-		            <li><a href="index.html">Part 1: Introduction</a></li>
+		            <li><a href="getting-started-js.php">Part 1: Introduction</a></li>
 		            <li><a href="getting-started-js2.php">Part 2: Installing a web server</a></li>
 		            <li><a href="getting-started-js3.php">Part 3: Run in the Cloud</a></li>
 		            <li><a href="getting-started-js4.php">Part 4: Choosing an Editor</a></li>
