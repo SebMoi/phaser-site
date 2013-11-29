@@ -41,21 +41,39 @@
 
 		        <h1>Getting started with Phaser</h1>
 
-		        <h2>Part 1 - Introduction</h2>
+		        <h2>Part 3 - Run in the Cloud</h2>
 
-		        <p>In this tutorial we're going to cover setting-up a development enviornment with which you can build your Phaser games. This will include running a local web server, picking an IDE, getting the latest version of Phaser and checking it all works together properly.</p>
+		        <p>If you're not comfortable with github cloning, and setting up a web server, or if you don't want to bother with all that, you can run phaser in the Cloud.</p>
 
-		        <p><strong>"Why do I need a local web server? Can't I just drag the html files onto my browser?"</strong></p>
+		        <p>More than a marketing buzzword, the Cloud is often used by developers as tool which allows you to create, edit and share your content without having to install anything, or make the people you share your content with do so.</p>
 
-		        <p>Not these days, no. I appreciate that it's a bit confusing, even contradictory at times, but it all boils down to browser security. If you're making a static html web page, perhaps with a few images in it, then you can happily drag this file into your browser and see the end results. You can also "Save As" entire web pages locally and re-open them, with all the contents mostly intact. If both of these things work why can't you drag an HTML5 game into a browser and run it?</p>
+		        <p>There are several JavaScript online collaboration tools such as JSBin, codepen and JSFiddle just to name a few of them.</p>
 
-		        <p>It's to do with the protocol used to access the files. When you request anything over the web you're using http, and the server level security is enough to ensure you can only access files you're meant to. But when you drag a file in it's loaded via the local file system (technically file://) and that is massively restricted, for obvious reasons. Under file:// there's no concept of domains, no server level security, just a raw file system. Ask yourself this: do you really want JavaScript to have the ability to load files from your local file system? Your immediate answer should of course be "not in a million years!". If JavaScript had free reign while operating under file:// there would be nothing stopping it loading pretty much <em>any</em> file it fancied and sending it off who knows where.</p>
+		        <p>There is another tool that we recommend which is called Cloud9 IDE that allows you get up and running very quickly.</p>
 
-		        <p>Because this is so dangerous browsers lock themselves down tighter than Alcatraz when running under file://. Every single page becomes treated as a unique local domain. That is why "Save Web page" works, to a degree. It opens under the same cross-site restrictions as if they were on a live server. There's a detailed post about it on the Chromium blog: http://blog.chromium.org/2008/12/security-in-depth-local-web-pages.html.</p>
+		        <img src="https://c9.io/site/wp-content/themes/cloud9/img/logo_cloud9.png"/>
 
-		        <p>Your game is going to need to load in resources. Images, audio files, JSON data, maybe other JavaScript files. In order to do this it needs to run unhindered by the browser security shackles. It needs http:// access to the game files. And for that we need a web server.</p>
+		        <p>First, sign up to the website using GitHub, and once this is completed, you will be redirected to your dashboard.</p>
 
-		        <p><a href="getting-started-js2.php">Part 2: Installing a web server</a></p>
+		        <img src="images/dashboard.jpg"/>
+
+		        <p>From this dashboard, you can create private or shared project, or, the feature that interests us in this case, you can create a project from a GitHub repository.</p>
+
+		        <p>Click the "create workspace" button and select the "clone from URL" option from the drop-down menu.</p>
+
+		        <img src="images/cloneFrom.jpg"/>
+
+		        <p>Once the repository is integrated into c9.io, you'll see this window:</p>
+
+		        <img src="images/start.jpg"/>
+
+		        <p>When you click on the "start editing" button you'll be redirected here:</p>
+
+		        <img src="images/editor.jpg"/>
+
+		        <p>You have now a copy of the Phaser repository.</p>
+
+		        <p><a href="getting-started-js4.php">Part 4: Choosing an Editor</a></p>
 
 		        <ul>
 		            <li><a href="index.html">Part 1: Introduction</a></li>

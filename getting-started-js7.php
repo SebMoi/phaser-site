@@ -41,21 +41,21 @@
 
 		        <h1>Getting started with Phaser</h1>
 
-		        <h2>Part 1 - Introduction</h2>
+		        <h2>Part 7 - The Phaser Examples</h2>
 
-		        <p>In this tutorial we're going to cover setting-up a development enviornment with which you can build your Phaser games. This will include running a local web server, picking an IDE, getting the latest version of Phaser and checking it all works together properly.</p>
+		        <p>Phaser comes with a comprehensive suite of examples. At the current count over 160 of them. They are short self-contained snippets of code that focus on just a couple of elements and nothing more, and as such they're really useful to learn from! Whenever we add a new feature into Phaser we create an example to demonstrate how to use it, so there are all kinds of examples from simple things like loading audio to sprite animation and input handling.</p>
 
-		        <p><strong>"Why do I need a local web server? Can't I just drag the html files onto my browser?"</strong></p>
+		        <p>Although we've uploaded the Examples to our site we still recommend that you copy the whole phaser folder (the entire repository) to your webroot, so you can easily run the Examples locally. If you've copied the phaser folder into your webroot then you can access the examples at:</p>
 
-		        <p>Not these days, no. I appreciate that it's a bit confusing, even contradictory at times, but it all boils down to browser security. If you're making a static html web page, perhaps with a few images in it, then you can happily drag this file into your browser and see the end results. You can also "Save As" entire web pages locally and re-open them, with all the contents mostly intact. If both of these things work why can't you drag an HTML5 game into a browser and run it?</p>
+		        <code>http://localhost/phaser/examples</code>
 
-		        <p>It's to do with the protocol used to access the files. When you request anything over the web you're using http, and the server level security is enough to ensure you can only access files you're meant to. But when you drag a file in it's loaded via the local file system (technically file://) and that is massively restricted, for obvious reasons. Under file:// there's no concept of domains, no server level security, just a raw file system. Ask yourself this: do you really want JavaScript to have the ability to load files from your local file system? Your immediate answer should of course be "not in a million years!". If JavaScript had free reign while operating under file:// there would be nothing stopping it loading pretty much <em>any</em> file it fancied and sending it off who knows where.</p>
+		        <p>Note: The URL above will differ based on your server set-up.</p>
 
-		        <p>Because this is so dangerous browsers lock themselves down tighter than Alcatraz when running under file://. Every single page becomes treated as a unique local domain. That is why "Save Web page" works, to a degree. It opens under the same cross-site restrictions as if they were on a live server. There's a detailed post about it on the Chromium blog: http://blog.chromium.org/2008/12/security-in-depth-local-web-pages.html.</p>
+		        <h3>Side by side</h3>
 
-		        <p>Your game is going to need to load in resources. Images, audio files, JSON data, maybe other JavaScript files. In order to do this it needs to run unhindered by the browser security shackles. It needs http:// access to the game files. And for that we need a web server.</p>
+		        <p>There are two ways to explore the examples. The default view is a big long list and each new example opens in a new page. There is also a 'Side View', a link to which you'll find at the top of the page. This puts all of the examples in a list down the left and the content and code loads into a frame on the right. Each one has its advantages, so play around and explore!</p>
 
-		        <p><a href="getting-started-js2.php">Part 2: Installing a web server</a></p>
+		        <p><a href="getting-started-js8.php">Part 8: Next Steps</a></p>
 
 		        <ul>
 		            <li><a href="index.html">Part 1: Introduction</a></li>

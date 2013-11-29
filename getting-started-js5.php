@@ -41,21 +41,23 @@
 
 		        <h1>Getting started with Phaser</h1>
 
-		        <h2>Part 1 - Introduction</h2>
+		        <h2>Part 5 - Downloading Phaser</h2>
 
-		        <p>In this tutorial we're going to cover setting-up a development enviornment with which you can build your Phaser games. This will include running a local web server, picking an IDE, getting the latest version of Phaser and checking it all works together properly.</p>
+		        <p>Phaser is an open source project and available to download for free. We use github to manage the project and it's on the github site that you will find the latest version:</p>
 
-		        <p><strong>"Why do I need a local web server? Can't I just drag the html files onto my browser?"</strong></p>
+		        <p><a href="https://github.com/photonstorm/phaser">https://github.com/photonstorm/phaser</a></p>
 
-		        <p>Not these days, no. I appreciate that it's a bit confusing, even contradictory at times, but it all boils down to browser security. If you're making a static html web page, perhaps with a few images in it, then you can happily drag this file into your browser and see the end results. You can also "Save As" entire web pages locally and re-open them, with all the contents mostly intact. If both of these things work why can't you drag an HTML5 game into a browser and run it?</p>
+		        <h3>Can I just get a zip file?</h3>
 
-		        <p>It's to do with the protocol used to access the files. When you request anything over the web you're using http, and the server level security is enough to ensure you can only access files you're meant to. But when you drag a file in it's loaded via the local file system (technically file://) and that is massively restricted, for obvious reasons. Under file:// there's no concept of domains, no server level security, just a raw file system. Ask yourself this: do you really want JavaScript to have the ability to load files from your local file system? Your immediate answer should of course be "not in a million years!". If JavaScript had free reign while operating under file:// there would be nothing stopping it loading pretty much <em>any</em> file it fancied and sending it off who knows where.</p>
+		        <p>Yes. Github provide the option to <a href="https://github.com/photonstorm/phaser/archive/master.zip">download the whole repository</a> as a zip file. You can then unzip this locally to get to all the files. However we would strongly recommend you learn to use git instead. It will allow you to easily update to the latest versions as we release them, and it makes contributing towards the project much easier as well. If you don't fancy learning to use git via the command-line there are some great applications you can use instead. We'd recommend <a href="http://www.syntevo.com/smartgithg/">SmartGIT</a> on Windows or <a href="http://www.git-tower.com/">Git Tower</a> on OS X.</p>
 
-		        <p>Because this is so dangerous browsers lock themselves down tighter than Alcatraz when running under file://. Every single page becomes treated as a unique local domain. That is why "Save Web page" works, to a degree. It opens under the same cross-site restrictions as if they were on a live server. There's a detailed post about it on the Chromium blog: http://blog.chromium.org/2008/12/security-in-depth-local-web-pages.html.</p>
+		        <h3>Repository Structure</h3>
 
-		        <p>Your game is going to need to load in resources. Images, audio files, JSON data, maybe other JavaScript files. In order to do this it needs to run unhindered by the browser security shackles. It needs http:// access to the game files. And for that we need a web server.</p>
+		        <p>The Phaser repository is split across 2 main branches: <a href="https://github.com/photonstorm/phaser">master</a> and <a href="https://github.com/photonstorm/phaser/tree/dev">dev</a>. The master branch contains the most recent stable release and is the one you should try first. The dev branch is where we prepare the latest versions. In here you'll find experimental features and API changes, some of which may not work. But it's also where you'll see the bleeding-edge features we're working on.</p>
 
-		        <p><a href="getting-started-js2.php">Part 2: Installing a web server</a></p>
+		        <p>Right now there is an approximate delay of around 4 weeks between dev and master. This means we build the new features out in dev and let them bake for a month before we move them to master. This gives them time for others to test and comment on them, and it keeps the release rate of Phaser to a manageable monthly cycle.</p>
+
+		        <p><a href="getting-started-js6.php">Part 6: Hello World!</a></p>
 
 		        <ul>
 		            <li><a href="index.html">Part 1: Introduction</a></li>

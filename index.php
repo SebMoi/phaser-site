@@ -192,10 +192,20 @@
 					</div>
 				</section>
 				<section class="section add">
-					<h1>News</h1>
+					<h1>News - 2013</h1>
 					<div class="box-holder">
 
 						<div class="createsend-button" style="height:27px;display:inline-block;" data-listid="r/69/574/2FD/369DE48E3E86AF1E"></div><script type="text/javascript">(function () { var e = document.createElement('script'); e.type = 'text/javascript'; e.async = true; e.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://btn.createsend1.com/js/sb.min.js?v=2'; e.className = 'createsend-script'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(e, s); })();</script>
+
+						<div class="news">
+							<div class="date">29th Nov.</div>
+							<div class="item"><a href="http://www.html5gamedevs.com/topic/2366-phaser-113-arafel-released-hello-webgl-shaders/">Phaser 1.1.3 Released:</a> New WebGL shaders, BitmapData, JSHint, IE11 updates and new documentation.</div>
+						</div>
+
+						<div class="news">
+							<div class="date">24th Nov.</div>
+							<div class="item"><a href="http://www.html5gamedevs.com/topic/2276-breakout-phaser-version/">Phaser Breakout:</a> A Phaser version of the city41 Breakout comparison test.</div>
+						</div>
 
 						<div class="news">
 							<div class="date">8th Nov.</div>
@@ -236,7 +246,7 @@
 							<h2><mark>2.</mark> Setup</h2>
 							<p>Get started with these guides:</p>
 							<div class="button-frame">
-								<a href="getting-started-ts.php" class="button item-02"><span>TypeScript Guide</span></a>
+								<a href="getting-started-js.php" class="button item-02"><span>TypeScript Guide</span></a>
 								<a href="getting-started-js.php" class="button item-03"><span>JavaScript Guide</span></a>
 							</div>
 						</div>

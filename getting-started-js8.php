@@ -41,21 +41,31 @@
 
 		        <h1>Getting started with Phaser</h1>
 
-		        <h2>Part 1 - Introduction</h2>
+		        <h2>Part 8 - Next Steps</h2>
 
-		        <p>In this tutorial we're going to cover setting-up a development enviornment with which you can build your Phaser games. This will include running a local web server, picking an IDE, getting the latest version of Phaser and checking it all works together properly.</p>
+		        <p>Your game development experience with Phaser begins here! Although we've only touched upon the basics you still have a fully working development environment, access to the API docs and hundreds of examples. Even so it's always best to code as part of a community - and for that we cannot recommend our forum enough. It has gone from strength to strength over the past few months, and you're sure to find help and support when you need it most.</p>
 
-		        <p><strong>"Why do I need a local web server? Can't I just drag the html files onto my browser?"</strong></p>
+		        <p>Bounce ideas of others, hang-out in the chat room, browse the games showcase and just be involved!</p>
 
-		        <p>Not these days, no. I appreciate that it's a bit confusing, even contradictory at times, but it all boils down to browser security. If you're making a static html web page, perhaps with a few images in it, then you can happily drag this file into your browser and see the end results. You can also "Save As" entire web pages locally and re-open them, with all the contents mostly intact. If both of these things work why can't you drag an HTML5 game into a browser and run it?</p>
+		        <p><a href="http://www.html5gamedevs.com/forum/14-phaser/">Join the Forum</a></p>
 
-		        <p>It's to do with the protocol used to access the files. When you request anything over the web you're using http, and the server level security is enough to ensure you can only access files you're meant to. But when you drag a file in it's loaded via the local file system (technically file://) and that is massively restricted, for obvious reasons. Under file:// there's no concept of domains, no server level security, just a raw file system. Ask yourself this: do you really want JavaScript to have the ability to load files from your local file system? Your immediate answer should of course be "not in a million years!". If JavaScript had free reign while operating under file:// there would be nothing stopping it loading pretty much <em>any</em> file it fancied and sending it off who knows where.</p>
+		        <h3>Phaser Newsletter</h3>
 
-		        <p>Because this is so dangerous browsers lock themselves down tighter than Alcatraz when running under file://. Every single page becomes treated as a unique local domain. That is why "Save Web page" works, to a degree. It opens under the same cross-site restrictions as if they were on a live server. There's a detailed post about it on the Chromium blog: http://blog.chromium.org/2008/12/security-in-depth-local-web-pages.html.</p>
+		        <p>We publish a monthly Phaser newsletter. As well as details about new releases it also contains short tutorials and features. Sign-up for free to have it hit your inbox during the first week of the month.</p>
 
-		        <p>Your game is going to need to load in resources. Images, audio files, JSON data, maybe other JavaScript files. In order to do this it needs to run unhindered by the browser security shackles. It needs http:// access to the game files. And for that we need a web server.</p>
+		        <p><a href="https://confirmsubscription.com/h/r/369DE48E3E86AF1E">Subscribe to the Newsletter</a></p>
 
-		        <p><a href="getting-started-js2.php">Part 2: Installing a web server</a></p>
+		        <h3>Contribute</h3>
+
+		        <p>You can help shape the way in which Phaser grows. If you find a bug, please report it. It won't take you long, and to date we have fixed over 91% of all reported issues (and we're still working on the other 9%). You can also issue Pull Requests against the development branch, or release your own plugins or filters.</p>
+
+		        <p><a href="https://github.com/photonstorm/phaser/issues/new">Report Issues on GitHub</a></p>
+
+		        <h3>Show us your games!</h3>
+
+		        <p>We spend many tireless hours working on Phaser because we want it to be the best HTML5 game development framework it can possibly be. We understand it won't be perfect for everyone, and we're cool with that. But if you use it and make something, no matter how small you think that is, please do let us know. You won't believe with a real motivational boost it is when devs show us the games they've been working on! Reach out to us either on the forum, via twitter (<a href="https://twitter.com/photonstorm">@photonstorm</a>) or by <a href="mailto:rdavey@gmail.com">email</a>.</p>
+
+		        <p>Most of all though, we truly hope you have fun making your game.</p>
 
 		        <ul>
 		            <li><a href="index.html">Part 1: Introduction</a></li>
