@@ -41,7 +41,7 @@
 
 					<h1>Getting Started</h1>
 
-					<p>As the paint is so fresh on our 1.0 release, we haven't quite finished our TypeScript definition files yet. As a result the following Guide assumes JavaScript, not TypeScript, but please do read through it anyway. We'll announce as soon as our TypeScript definitions are finished.</p>
+					<p>The TypeScript definition file is located in the <em>build</em> folder, but, as the paint is so fresh on our 1.1 release, is has not been thouroughly tested. As a result the following Guide assumes JavaScript, not TypeScript, but please do read through it anyway.</p>
 
 					<h2>1. Set-up a local web server</h2>
 
@@ -73,7 +73,7 @@
 
 					<p>Create a folder called '<em>hellophaser</em>'.</p>
 
-					<p>Open the <em>phaser/docs</em> folder from where ever you cloned or unzipped Phaser to. Inside you'll find a folder called "<em>Hello Phaser</em>". Copy the contents of this folder (index.html, phaser-min.js and logo.png) to the <em>hellophaser</em> folder you created in your web root.</p>
+					<p>Open the <em>phaser/tutorials</em> folder from where ever you cloned or unzipped Phaser to. Inside you'll find a folder called "<em>Hello Phaser</em>". Copy the contents of this folder (index.html, phaser-min.js and Phaser-Logo-Small.png) to the <em>hellophaser</em> folder you created in your web root.</p>
 
 					<h2>4. Run</h2>
 
@@ -125,7 +125,7 @@ function update() {
 
 					<p>More importantly than this you've also got access to loads of example code in the <em>examples</em> folder. You'll find sample code for all kinds of things. From Sprite animation, to playing sounds, to little mini-games. And we're constantly adding new examples all the time too. Watch them run, open up the source and look at how we achieved what you're seeing. We find it's the best way to learn!</p>
 
-					<p>Please give us some time to get the documentation for Phaser finished off. We're busy preparing jsdoc formatting for all classes, but it's a long and painstaking process and we're only about half finished. Be assured that finishing the API docs is our priority right now though. The same goes for the TypeScript definitions file.</p>
+					<p>The first version of the API documentation is available <a href="http://gametest.mobi/phaser/docs/">here</a> as well as from the <em>docs</em> folder in your local Phaser clone.</p>
 
 					<h2>8. Get involved</h2>
 
