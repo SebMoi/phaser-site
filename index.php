@@ -198,6 +198,11 @@
 						<div class="createsend-button" style="height:27px;display:inline-block;" data-listid="r/69/574/2FD/369DE48E3E86AF1E"></div><script type="text/javascript">(function () { var e = document.createElement('script'); e.type = 'text/javascript'; e.async = true; e.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://btn.createsend1.com/js/sb.min.js?v=2'; e.className = 'createsend-script'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(e, s); })();</script>
 
 						<div class="news">
+							<div class="date">2nd Dec.</div>
+							<div class="item"><a href="http://photonstorm.createsend4.com/t/ViewEmail/r/A347A40AB9C3593C2540EF23F30FEDED">Phaser Newsletter Issue 1:</a> The first issue of our newsletter is out. Subscribe to get future editions!</div>
+						</div>
+
+						<div class="news">
 							<div class="date">29th Nov.</div>
 							<div class="item"><a href="http://www.html5gamedevs.com/topic/2366-phaser-113-arafel-released-hello-webgl-shaders/">Phaser 1.1.3 Released:</a> New WebGL shaders, BitmapData, JSHint, IE11 updates and new documentation.</div>
 						</div>
