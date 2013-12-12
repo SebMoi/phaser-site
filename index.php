@@ -198,6 +198,21 @@
 						<div class="createsend-button" style="height:27px;display:inline-block;" data-listid="r/69/574/2FD/369DE48E3E86AF1E"></div><script type="text/javascript">(function () { var e = document.createElement('script'); e.type = 'text/javascript'; e.async = true; e.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://btn.createsend1.com/js/sb.min.js?v=2'; e.className = 'createsend-script'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(e, s); })();</script>
 
 						<div class="news">
+							<div class="date">12th Dec.</div>
+							<div class="item"><a href="http://www.html5gamedevs.com/topic/2482-ludum-dare-28/">Good luck in LD48!:</a> All the best to everyone using Phaser for an LD48 game :)</div>
+						</div>
+
+						<div class="news">
+							<div class="date">11th Dec.</div>
+							<div class="item"><a href="http://www.photonstorm.com/phaser/how-to-use-phaser-with-typescript">How to use Phaser with TypeScript:</a> A new 2 part tutorial series, beginners and advanced levels.</div>
+						</div>
+
+						<div class="news">
+							<div class="date">7th Dec.</div>
+							<div class="item"><a href="http://www.photonstorm.com/phaser/tutorial-making-your-first-phaser-game">Making your first Phaser Game:</a> Walk through this brand new Phaser tutorial.</div>
+						</div>
+
+						<div class="news">
 							<div class="date">2nd Dec.</div>
 							<div class="item"><a href="http://photonstorm.createsend4.com/t/ViewEmail/r/A347A40AB9C3593C2540EF23F30FEDED">Phaser Newsletter Issue 1:</a> The first issue of our newsletter is out. Subscribe to get future editions!</div>
 						</div>
@@ -232,11 +247,6 @@
 							<div class="item"><a href="http://www.html5gamedevs.com/topic/1815-phaser-11-is-released/">Phaser 1.1 Released:</a> Our biggest update ever! Full API Docs, 150+ Examples, Enhanced Physics and more.</div>
 						</div>
 
-						<div class="news">
-							<div class="date">20th Oct.</div>
-							<div class="item"><a href="http://www.html5gamedevs.com/topic/1752-coding-an-html5-game-for-30-minutes-or-an-introduction-to-the-phaser-framework/">An Introduction to Phaser:</a> A quick 30 minute introduction to making a game in Phaser.</div>
-						</div>
-
 					</div>
 				</section>
 				<section class="section add">
@@ -251,7 +261,7 @@
 							<h2><mark>2.</mark> Setup</h2>
 							<p>Get started with these guides:</p>
 							<div class="button-frame">
-								<a href="getting-started-js.php" class="button item-02"><span>TypeScript Guide</span></a>
+								<a href="getting-started-ts.php" class="button item-02"><span>TypeScript Guide</span></a>
 								<a href="getting-started-js.php" class="button item-03"><span>JavaScript Guide</span></a>
 							</div>
 						</div>

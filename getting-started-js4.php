@@ -47,7 +47,7 @@
 
 		        <h3>Sublime Text</h3>
 
-		        <p>This is the editor the Phaser team use for building the framework and examples. It's even the editor this guide is being written in. Sublime should be considered as an extremely powerful text editor rather than an IDE. An IDE is an integrated development environment, that often bundles additional features such as built-in web servers, source control and code in-sight / completion. Sublime focuses on being an amazing editor first and foremost, and its multiple cursor and mini-map features are two of the most time saving we've ever come across in decades of development. Using a comprehensive Package system you can enhance it in multiple ways.</p>
+		        <p>This is the editor the Phaser team use for building the framework and examples. It's even the editor this guide is being written in. Sublime should be considered as an extremely powerful text editor rather than an IDE. An IDE is an integrated development environment, that often bundles additional features such as built-in web servers, source control and code in-sight / completion. Sublime focuses on being an amazing editor first and foremost, and its multiple cursor and mini-map features are two of the most time saving we've ever come across in decades of development. Using a comprehensive Package system you can enhance it in multiple ways. Here is an <a href="http://scotch.io/bar-talk/best-of-sublime-text-3-features-plugins-and-settings">excellent guide</a> to features and packages for Sublime.</p>
 
 		        <p>The full version costs $70 but is worth every penny and is available for Windows and OS X.</p>
 

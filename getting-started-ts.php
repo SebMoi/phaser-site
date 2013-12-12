@@ -41,101 +41,51 @@
 
 					<h1>Getting Started</h1>
 
-					<p>The TypeScript definition file is located in the <em>build</em> folder, but, as the paint is so fresh on our 1.1 release, is has not been thouroughly tested. As a result the following Guide assumes JavaScript, not TypeScript, but please do read through it anyway.</p>
+					<p>We've two brand new tutorials on using Phaser with TypeScript available.</p>
 
-					<h2>1. Set-up a local web server</h2>
+					<p>Part 1 is <a href="http://www.photonstorm.com/phaser/how-to-use-phaser-with-typescript">How to use Phaser with TypeScript</a>. In it covers, step-by-step, how to set up Visual Studio for development with Phaser, and walks you through building your first simple project.</p>
 
-					<p>As obvious as this may sound, when you make HTML5 games you are making games for a web browser, and as such you have to work within the security restrictions of those browsers. One such restriction is that a browser cannot access your local file system by default. This is a good thing! After all, think of the potential repurcusions if it could.</p>
+					<p>In Part 2 we cover <a href="http://www.photonstorm.com/phaser/advanced-phaser-and-typescript-projects">Advanced TypeScript Phaser Projects</a>. In this tutorial we focus on building a properly structured game, using a defined module, classes that extend core Phaser objects and build a solid template you can use for future games.</p>
 
-					<p>But what it means is that you can't just drag a Phaser HTML file onto your browser and expect it to run. The file will need to be served from a web server if you want it to be able to load in resources like images or music. But that server can easily run locally and that's how we develop all of our games here.</p>
+			        <h2>The Phaser Examples</h2>
 
-					<p>This isn't as daunting as it sounds. There are many great free packages available for Windows and OS X that bundle together pre-configured web servers for you and wrap them all up in a friendly installer.</p>
+			        <p>Phaser comes with a comprehensive suite of examples. At the current count over 160 of them. They are short self-contained snippets of code that focus on just a couple of elements and nothing more, and as such they're really useful to learn from! Whenever we add a new feature into Phaser we create an example to demonstrate how to use it, so there are all kinds of examples from simple things like loading audio to sprite animation and input handling.</p>
 
-					<p>On Windows we recommend <a href="http://www.wampserver.com/en/">WAMP Server</a> and on OS X we recommend <a href="http://www.mamp.info/en/index.html">MAMP</a>.</p>
+			        <p>Although we've uploaded the Examples to our site we still recommend that you copy the whole phaser folder (the entire repository) to your webroot, so you can easily run the Examples locally. If you've copied the phaser folder into your webroot then you can access the examples at:</p>
 
-					<p>Once you've downloaded and installed a local web server you are ready to start using Phaser.</p>
+			        <code>http://localhost/phaser/examples</code>
 
-					<h2>2. Download Phaser</h2>
+			        <p>Note: The URL above will differ based on your server set-up.</p>
 
-					<p>Phaser is hosted on github. If you are comfortable using git then simply <a href="https://github.com/photonstorm/phaser">clone or fork our repository</a>.</p>
+			        <h3>Side by side</h3>
 
-					<p>If you have never used git then you can <a href="https://github.com/photonstorm/phaser/archive/master.zip">Download a ZIP</a> of the project instead. Unzip this somewhere on your local filesystem.</p>
+			        <p>There are two ways to explore the examples. The default view is a big long list and each new example opens in a new page. There is also a 'Side View', a link to which you'll find at the top of the page. This puts all of the examples in a list down the left and the content and code loads into a frame on the right. Each one has its advantages, so play around and explore!</p>
 
-					<h2>3. Hello World</h2>
+			        <h2>Next Steps</h2>
 
-					<p>Now you've got the library let's create a simple demo to check it is all working.</p>
+			        <p>Your game development experience with Phaser begins here! Although we've only touched upon the basics you still have a fully working development environment, access to the API docs and hundreds of examples. Even so it's always best to code as part of a community - and for that we cannot recommend our forum enough. It has gone from strength to strength over the past few months, and you're sure to find help and support when you need it most.</p>
 
-					<p>Create a new folder in your web servers home directory. The location of this folder will depend entirely on which web server you installed and where you installed it to. If you are using WAMP Server then click the WAMP icon in your task bar and pick the option "www directory":</p>
+			        <p>Bounce ideas of others, hang-out in the chat room, browse the games showcase and just be involved!</p>
 
-					<img src="guide/wamp.jpg" />
-					
-					<p>This will open a File Explorer window in the right place.</p>
+			        <p><a href="http://www.html5gamedevs.com/forum/14-phaser/">Join the Forum</a></p>
 
-					<p>Create a folder called '<em>hellophaser</em>'.</p>
+			        <h3>Phaser Newsletter</h3>
 
-					<p>Open the <em>phaser/tutorials</em> folder from where ever you cloned or unzipped Phaser to. Inside you'll find a folder called "<em>Hello Phaser</em>". Copy the contents of this folder (index.html, phaser-min.js and Phaser-Logo-Small.png) to the <em>hellophaser</em> folder you created in your web root.</p>
+			        <p>We publish a monthly Phaser newsletter. As well as details about new releases it also contains short tutorials and features. Sign-up for free to have it hit your inbox during the first week of the month.</p>
 
-					<h2>4. Run</h2>
+			        <p><a href="https://confirmsubscription.com/h/r/369DE48E3E86AF1E">Subscribe to the Newsletter</a></p>
 
-					<p>Open your web browser and point it at the <em>hellophaser</em> folder on your local web server. Depending on your set-up this may be http://localhost/hellophaser.</p>
+			        <h3>Contribute</h3>
 
-					<p>If you have configured your server correctly and copied the files over you should see the following appear:</p>
+			        <p>You can help shape the way in which Phaser grows. If you find a bug, please report it. It won't take you long, and to date we have fixed over 91% of all reported issues (and we're still working on the other 9%). You can also issue Pull Requests against the development branch, or release your own plugins or filters.</p>
 
-					<iframe width="640" height="480" src="http://codepen.io/photonstorm/full/bzedE"></iframe>
+			        <p><a href="https://github.com/photonstorm/phaser/issues/new">Report Issues on GitHub</a></p>
 
-					<p>It's not exactly Call of Duty, but at least we know it's all working.</p>
+			        <h3>Show us your games!</h3>
 
-					<h2>5. Edit the source</h2>
+			        <p>We spend many tireless hours working on Phaser because we want it to be the best HTML5 game development framework it can possibly be. We understand it won't be perfect for everyone, and we're cool with that. But if you use it and make something, no matter how small you think that is, please do let us know. You won't believe with a real motivational boost it is when devs show us the games they've been working on! Reach out to us either on the forum, via twitter (<a href="https://twitter.com/photonstorm">@photonstorm</a>) or by <a href="mailto:rdavey@gmail.com">email</a>.</p>
 
-					<p>Open <em>index.html</em> into your favourite text editor. We recommend <a href="http://www.sublimetext.com/">Sublime Text</a>.</p>
-
-					<p>You'll see a simple game structure based around a collection of functions. This is just one way of creating a game in Phaser. It also has advanced State management, allowing you to break your game up into as many parts as you like, but for the sake of this example we'll use this approach.</p>
-
-					<p>Inside the <em>create</em> function edit the code so it looks like this:</p>
-
-					<pre>
-function create() {
-
-	logo = game.add.sprite(game.world.centerX, game.world.centerY, 'logo');
-	logo.anchor.x = 0.5;
-	logo.anchor.y = 0.5;
-
-}
-					</pre>
-
-					<p>Save your changes and refresh the browser. Now you'll see the logo appear in the middle of the game window instead of the top-left. The anchor property of the Sprite allows you to adjust where it is rendered from in relation to its x/y coordinates. 0.5 is 50% along the sprite, i.e. half-way. So these two lines have told Phaser to treat the Sprites x/y coordinates as being the middle of the sprite.</p>
-
-					<h2>6. Spin it</h2>
-
-					<p>Edit the html file again. This time modify the update function to the following:</p>
-
-					<pre>
-function update() {
-
-	logo.angle++;
-
-}
-					</pre>
-
-					<p>Save and refresh. The logo should now be nicely spinning around the center of the game window.</p>
-
-					<h2>7. Learn by example</h2>
-
-					<p>We appreciate this is only a very simple example, but you've now got a full copy of Phaser, a locally working web server in which to develop and a basic understanding of how Phaser projects are structured.</p>
-
-					<p>More importantly than this you've also got access to loads of example code in the <em>examples</em> folder. You'll find sample code for all kinds of things. From Sprite animation, to playing sounds, to little mini-games. And we're constantly adding new examples all the time too. Watch them run, open up the source and look at how we achieved what you're seeing. We find it's the best way to learn!</p>
-
-					<p>The first version of the API documentation is available <a href="http://gametest.mobi/phaser/docs/">here</a> as well as from the <em>docs</em> folder in your local Phaser clone.</p>
-
-					<h2>8. Get involved</h2>
-
-					<p>Now we have shipped the 1.0 release of Phaser we will be publishing tutorials on how best to use it. These will be Beginner and Advanced level, both short and long-form. For the latest news we urge you to <a href="http://www.html5gamedevs.com/forum/14-phaser/">join our forum</a> and get involved. The team are on there every day, happy to answer your questions.</p>
-
-					<p>Please do get involved with the community. We're a friendly and approachable bunch, with years of game dev experience between us. You don't have to code in isolation :) If you find a bug please submit an issue on github, or even better a patch and a pull request.</p>
-
-					<p>Thanks for reading!</p>
-
-					<p>Richard Davey</p>
+			        <p>Most of all though, we truly hope you have fun making your game.</p>
 
 				</section>
 			</div>

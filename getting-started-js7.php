@@ -55,6 +55,10 @@
 
 		        <p>There are two ways to explore the examples. The default view is a big long list and each new example opens in a new page. There is also a 'Side View', a link to which you'll find at the top of the page. This puts all of the examples in a list down the left and the content and code loads into a frame on the right. Each one has its advantages, so play around and explore!</p>
 
+		        <h3>Making a Game in Phaser Tutorial</h3>
+
+		        <p>Now you're all set-up we strongly recommend you work through the beginners guide to <a href="http://www.photonstorm.com/phaser/tutorial-making-your-first-phaser-game">Making a Game in Phaser</a>. You'll learn how to construct a simple game scene and control a character who can leap off platforms and collect items.</p>
+
 		        <p><a href="getting-started-js8.php">Part 8: Next Steps</a></p>
 
 		        <ul>
