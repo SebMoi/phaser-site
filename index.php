@@ -192,14 +192,53 @@
 					</div>
 				</section>
 				<section class="section add">
-					<h1>News - 2013</h1>
+
+					<h1>News - 2014</h1>
 					<div class="box-holder">
 
 						<div class="createsend-button" style="height:27px;display:inline-block;" data-listid="r/69/574/2FD/369DE48E3E86AF1E"></div><script type="text/javascript">(function () { var e = document.createElement('script'); e.type = 'text/javascript'; e.async = true; e.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://btn.createsend1.com/js/sb.min.js?v=2'; e.className = 'createsend-script'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(e, s); })();</script>
 
 						<div class="news">
-							<div class="date">12th Dec.</div>
-							<div class="item"><a href="http://www.html5gamedevs.com/topic/2482-ludum-dare-28/">Good luck in LD48!:</a> All the best to everyone using Phaser for an LD48 game :)</div>
+							<div class="date">13th Jan.</div>
+							<div class="item"><a href="https://blogs.oracle.com/geertjan/entry/phaser_in_netbeans_ide_part">Phaser and Netbeans:</a> Part 3 of using Phaser with the NetBeans IDE by Geertjan Wielenga.</div>
+						</div>
+
+						<div class="news">
+							<div class="date">5th Jan.</div>
+							<div class="item"><a href="https://blogs.oracle.com/geertjan/entry/phaser_and_netbeans_ide_part">Phaser and Netbeans:</a> Part 2 of using Phaser with the NetBeans IDE by Geertjan Wielenga.</div>
+						</div>
+
+						<div class="news">
+							<div class="date">4th Jan.</div>
+							<div class="item"><a href="https://blogs.oracle.com/geertjan/entry/phaser_and_netbeans_ide">Phaser and Netbeans:</a> Part 1 of using Phaser with the NetBeans IDE by Geertjan Wielenga.</div>
+						</div>
+
+					</div>
+				</section>
+
+				<section class="section add">
+
+					<h1>News - 2013</h1>
+					<div class="box-holder">
+
+						<div class="news">
+							<div class="date">30th Dec.</div>
+							<div class="item"><a href="http://toastedware.com/?p=258">Organise your code:</a> How to organize your JavaScript code in classes using Phaser.</div>
+						</div>
+
+						<div class="news">
+							<div class="date">22nd Dec.</div>
+							<div class="item"><a href="http://gamedevelopment.tutsplus.com/tutorials/how-to-make-your-first-roguelike--gamedev-13677">How to Make Your First Roguelike:</a> A great tutorial on making a roguelike game in Phaser.</div>
+						</div>
+
+						<div class="news">
+							<div class="date">21st Dec.</div>
+							<div class="item"><a href="http://gamedevelopment.tutsplus.com/articles/how-to-learn-the-phaser-html5-game-engine--gamedev-13643">How to Learn Phaser:</a> A detailed overview of how to learn Phaser from GameDevTuts+</div>
+						</div>
+
+						<div class="news">
+							<div class="date">20th Dec.</div>
+							<div class="item"><a href="http://www.photonstorm.com/phaser/phaser-games-in-ludum-dare-28">Phaser Games in Ludum Dare 28:</a> Over 20 games made with Phaser were entered! Congratulations to everyone who took part.</div>
 						</div>
 
 						<div class="news">
