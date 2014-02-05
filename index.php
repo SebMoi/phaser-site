@@ -199,6 +199,26 @@
 						<div class="createsend-button" style="height:27px;display:inline-block;" data-listid="r/69/574/2FD/369DE48E3E86AF1E"></div><script type="text/javascript">(function () { var e = document.createElement('script'); e.type = 'text/javascript'; e.async = true; e.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://btn.createsend1.com/js/sb.min.js?v=2'; e.className = 'createsend-script'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(e, s); })();</script>
 
 						<div class="news">
+							<div class="date">5th Feb.</div>
+							<div class="item"><a href="http://www.photonstorm.com/phaser/phaser-1-1-4-kandor-released-check-out-the-new-features-and-roadmap">Phaser 1.1.4 Released:</a> New physics, tilemaps, game objects, timers and more!</div>
+						</div>
+
+						<div class="news">
+							<div class="date">17th Jan.</div>
+							<div class="item"><a href="http://www.html5gamedevs.com/topic/3150-use-flashdevelop-ide-to-make-phaser-games-with-phaserhaxe/">PhaserHaxe:</a> Use FlashDevelop to make Phaser Games with haXe.</div>
+						</div>
+
+						<div class="news">
+							<div class="date">16th Jan.</div>
+							<div class="item"><a href="http://www.emanueleferonato.com/2014/01/15/create-an-html5-game-like-space-is-key-with-a-lot-of-room-for-customization/">Create an HTML5 game like Space is Key with a lot of room for customization:</a> by Emanuele Feronato.</div>
+						</div>
+
+						<div class="news">
+							<div class="date">15th Jan.</div>
+							<div class="item"><a href="http://lessmilk.com">One new HTML5 game per week:</a> All created in Phaser. 4 games made so far - we love Man vs. Penguins :)</div>
+						</div>
+
+						<div class="news">
 							<div class="date">13th Jan.</div>
 							<div class="item"><a href="https://blogs.oracle.com/geertjan/entry/phaser_in_netbeans_ide_part">Phaser and Netbeans:</a> Part 3 of using Phaser with the NetBeans IDE by Geertjan Wielenga.</div>
 						</div>
@@ -387,7 +407,7 @@
 					<div class="holder">
 						<div class="text-holder">
 							<strong class="logotype-01"><a href="http://www.photonstorm.com">Photon Storm</a></strong>
-							<strong class="copy">&copy; 2013 Photon Storm Ltd.</strong>
+							<strong class="copy">&copy; 2014 Photon Storm Ltd.</strong>
 							<span>All rights reserved.</span>
 						</div>
 						<div class="logo-holder">
