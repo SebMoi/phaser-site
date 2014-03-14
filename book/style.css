@@ -1,0 +1,116 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Open sans', sans-serif;
+	color: #323232;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	background: #f0f0f0;
+}
+
+#page {
+	width: 800px;
+	margin: auto;
+	background: white;
+	border: 2px solid #9518cf;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#header {
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+#content {
+	font-size: 1.1em;
+	text-align: justify;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#content p {
+	width: 53%;
+	margin-left:30px;
+}
+
+#register {
+	width: 800px;
+	text-align: center;
+	margin: auto;
+	clear: both;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font-size: 1.4em;
+	font-weight: 700; 
+}
+
+input[type=submit] {
+	color: white;
+	border-radius: 5px;
+	padding: 5px 12px 8px 12px;
+	background-color: #9518cf;
+	width: 140px;
+	margin: auto;
+	text-align: center;
+	text-decoration: none;
+	margin-left: 10px;
+	border: 2px solid white;
+	font-size: 0.9em;
+	cursor: pointer;
+	text-shadow: 0 2px rgba(0, 0, 0, 0.4);
+}
+
+input[type=submit]:hover {
+	border: 2px solid #9518cf;
+}
+
+#footer {
+	text-align: center;
+	margin-top: 15px;
+}
+
+.info {
+	font-weight: normal;
+	font-size: 0.8em;
+	margin-top:15px;
+}
+
+img {
+	float: right;
+	margin-right: 30px;
+	margin-top: -15px;
+	width:260px;
+}
+
+input[type=email] {
+	font-size: 0.9em;
+	padding: 5px;
+}
+
+
+a {
+	color: #9518cf;
+}
+
+h1 {
+	font-size: 2.7em;
+	font-weight: 700; 
+}
+
+h2 {
+	font-size: 2.4em;	
+	font-weight: 400; 
+}
+
+p {
+	margin: 20px;
+}
+

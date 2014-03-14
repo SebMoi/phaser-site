@@ -63,7 +63,7 @@
 									<a class="open">Physics</a>
 									<div class="popup">
 										<h2>Physics</h2>
-										<p>Phaser ships with our Arcade Physics system. An extremely light-weight AABB physics library perfect for low-powered devices and fast collision response. Control velocity, acceleration, bounce, drag and full collision and separation control.</p>
+										<p>Phaser ships with support for 3 physics systems: Arcade Physics, an extremely light-weight AABB library perfect for low-powered devices. Ninja Physics for advanced tile support and p2.js - a full-body system with springs, constraints and advanced polygon support.</p>
 									</div>
 								</div>
 							</li>
@@ -184,7 +184,7 @@
 									<a class="open">Battle Tested</a>
 									<div class="popup">
 										<h2>Battle Tested</h2>
-										<p>Although Phaser is new it is born from years of experience building some of the biggest HTML5 games out there. We're not saying it is 100% bug free, but we use it for our client work every day, so issues get resolved <em>fast</em> and we stay on-top of the changing browser landscape.</p>
+										<p>Phaser has been used to create hundreds of games, receiving millions of plays a month. And Version 2 is the most stable and bug-free one yet. We're not saying it is 100% perfect, but we use it for our client work every day, issues get resolved <em>fast</em> and we stay on-top of the changing browser landscape.</p>
 									</div>
 								</div>
 							</li>
@@ -197,6 +197,81 @@
 					<div class="box-holder">
 
 						<div class="createsend-button" style="height:27px;display:inline-block;" data-listid="r/69/574/2FD/369DE48E3E86AF1E"></div><script type="text/javascript">(function () { var e = document.createElement('script'); e.type = 'text/javascript'; e.async = true; e.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://btn.createsend1.com/js/sb.min.js?v=2'; e.className = 'createsend-script'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(e, s); })();</script>
+
+						<div class="news">
+							<div class="date">13th Mar.</div>
+							<div class="item"><a href="https://github.com/photonstorm/phaser">Phaser 2.0 is released!</a> Our biggest and fastest update ever. Upgrade and enjoy!</div>
+						</div>
+
+						<div class="news">
+							<div class="date">12th Mar.</div>
+							<div class="item"><a href="http://phaser.io/book/">Interested in a Phaser Book?</a> Find out more and leave your details to be notified.</div>
+						</div>
+
+						<div class="news">
+							<div class="date">11th Mar.</div>
+							<div class="item"><a href="http://scotlandjs.com/speakers/gabe/">Build Games with JavaScript and Phaser</a> Session at the Scotland JS Conference</div>
+						</div>
+
+						<div class="news">
+							<div class="date">5th Mar.</div>
+							<div class="item"><a href="http://www.html5gamedevs.com/topic/4470-official-phaserio-irc-channel-phaserio-on-freenode/">Phaser IRC Channel</a> Is now open on Freenode. Drop by and chat!</div>
+						</div>
+
+						<div class="news">
+							<div class="date">3rd Mar.</div>
+							<div class="item"><a href="https://github.com/videlais/phaser-cocoonjs-ouya-gamepad-plugin">Phaser CocoonJS-Ouya Gamepad Plugin</a> Adds support for Ouya gamepads in Phaser Cocoon apps.</div>
+						</div>
+
+						<div class="news">
+							<div class="date">2nd Mar.</div>
+							<div class="item"><a href="http://haanto.com/phaser-websocket-multiplayer/">HTML5 Multiplayer with Phaser and Go</a> is a great new tutorial by Dawid Pogorzelski.</div>
+						</div>
+
+						<div class="news">
+							<div class="date">27th Feb.</div>
+							<div class="item"><a href="http://blog.lessmilk.com/how-to-make-flappy-bird-in-html5-2/">Tutorial: How to make a Flappy Bird in HTML5 with Phaser, Part 2</a> Adding animations and sound.</div>
+						</div>
+
+						<div class="news">
+							<div class="date">24th Feb.</div>
+							<div class="item"><a href="http://createsend.com/t/r-801065D2F06997252540EF23F30FEDED">Issue 2 of the Phaser Newslettr</a> is out! Including lots of new details about Phaser 2.0.</div>
+						</div>
+
+						<div class="news">
+							<div class="date">24th Feb.</div>
+							<div class="item"><a href="https://github.com/photonstorm/phaser/releases/tag/1.1.6">Phaser 1.1.6 Released</a> The last of the 1.x family, making way for 2.0 this March.</div>
+						</div>
+
+						<div class="news">
+							<div class="date">20th Feb.</div>
+							<div class="item"><a href="http://blog.lessmilk.com/how-to-make-flappy-bird-in-html5-1/">Tutorial: How to make a Flappy Bird in HTML5 with Phaser</a> In just 65 lines of code.</div>
+						</div>
+
+						<div class="news">
+							<div class="date">19th Feb.</div>
+							<div class="item"><a href="https://github.com/marksteve/dtmb">Heavy Bird</a> An open source Flappy Bird clone (yes, another one :).</div>
+						</div>
+
+						<div class="news">
+							<div class="date">17th Feb.</div>
+							<div class="item"><a href="http://blog.techmeout.tv/gaming/phaser-javascript-game-tutorial-series-flappy-bird-getting-started/">Flappy Bird Tutorial</a> Phaser Javascript Game Tutorial Series – Flappy Bird – Getting Started.</div>
+						</div>
+
+						<div class="news">
+							<div class="date">12th Feb.</div>
+							<div class="item"><a href="https://github.com/photonstorm/phaser/releases/tag/1.1.5">Phaser 1.1.5 Released</a> Essential bug fixes, TypeScript updates and documentation fixes.</div>
+						</div>
+
+						<div class="news">
+							<div class="date">9th Feb.</div>
+							<div class="item"><a href="https://github.com/jondot/gulpjs-phaser">gulpjs-phaser</a> A nice package of Phaser, Gulp.js, livereload, Coffeescript and Sass.</div>
+						</div>
+
+						<div class="news">
+							<div class="date">6th Feb.</div>
+							<div class="item"><a href="https://github.com/jcd-as/nadion">Nadion 0.2 Released:</a> Nadion adds a bunch of powerful enhancements to Phaser and this version now works with 1.1.4.</div>
+						</div>
 
 						<div class="news">
 							<div class="date">5th Feb.</div>
