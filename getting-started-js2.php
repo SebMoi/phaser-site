@@ -47,7 +47,7 @@
 
 		        <p>On Windows there are lots of "single install" bundles available. These are easy-to-install files that package together popular web technologies like Apache, PHP and MySQL and install them all for you at once, often with a handy system-tray icon to manage them too.</p>
 
-		        <p>We would recommend either <a href="http://www.wampserver.com/en/">WAMP Server</a> or <a href="http://www.apachefriends.org/en/xampp.html">XAMPP</a>. Both have easy set-up guides available. WAMP specifically installs an icon into your system-try from which you can stop and restart the services as well as modify Apache settings, such as creating a new folder alias for a project.</p>
+		        <p>We would recommend either <a href="http://www.wampserver.com/en/">WAMP Server</a> or <a href="http://www.apachefriends.org/en/xampp.html">XAMPP</a>. Both have easy set-up guides available. WAMP specifically installs an icon into your system-tray from which you can stop and restart the services as well as modify Apache settings, such as creating a new folder alias for a project.</p>
 
 		        <p>Cesanta provide the <a href="http://cesanta.com/downloads.html">Mongoose web server</a>. This is a really small application that requires no installation and can run as a single EXE file. Without all of the additional bundles like SSI and WebDAV (none of which you'll need for an HTML5 game) the EXE is a paltry 45KB in size. Even the fully featured one is only 355KB.</p>
 
